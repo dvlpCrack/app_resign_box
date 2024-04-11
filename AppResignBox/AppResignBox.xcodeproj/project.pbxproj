@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11FA214949103A3B86D83567 /* Pods_AppResignBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5647DC0F346EBB15863A92BD /* Pods_AppResignBox.framework */; };
+		979E17192BC7CB3C00EB82F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 979E17182BC7CB3C00EB82F0 /* AppDelegate.m */; };
+		979E171C2BC7CB3C00EB82F0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 979E171B2BC7CB3C00EB82F0 /* SceneDelegate.m */; };
+		979E171F2BC7CB3C00EB82F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 979E171E2BC7CB3C00EB82F0 /* ViewController.m */; };
+		979E17222BC7CB3C00EB82F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979E17202BC7CB3C00EB82F0 /* Main.storyboard */; };
+		979E17242BC7CB3E00EB82F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979E17232BC7CB3E00EB82F0 /* Assets.xcassets */; };
+		979E17272BC7CB3E00EB82F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979E17252BC7CB3E00EB82F0 /* LaunchScreen.storyboard */; };
+		979E172A2BC7CB3E00EB82F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 979E17292BC7CB3E00EB82F0 /* main.m */; };
+		979E17342BC7CB3F00EB82F0 /* AppResignBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 979E17332BC7CB3F00EB82F0 /* AppResignBoxTests.m */; };
+		979E173E2BC7CB3F00EB82F0 /* AppResignBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 979E173D2BC7CB3F00EB82F0 /* AppResignBoxUITests.m */; };
+		979E17402BC7CB3F00EB82F0 /* AppResignBoxUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 979E173F2BC7CB3F00EB82F0 /* AppResignBoxUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		979E17302BC7CB3F00EB82F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979E170C2BC7CB3C00EB82F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979E17132BC7CB3C00EB82F0;
+			remoteInfo = AppResignBox;
+		};
+		979E173A2BC7CB3F00EB82F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979E170C2BC7CB3C00EB82F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979E17132BC7CB3C00EB82F0;
+			remoteInfo = AppResignBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		425DD6287CB6C95482D916C5 /* Pods-AppResignBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppResignBox.release.xcconfig"; path = "Target Support Files/Pods-AppResignBox/Pods-AppResignBox.release.xcconfig"; sourceTree = "<group>"; };
+		5647DC0F346EBB15863A92BD /* Pods_AppResignBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppResignBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979E17142BC7CB3C00EB82F0 /* AppResignBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppResignBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979E17172BC7CB3C00EB82F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		979E17182BC7CB3C00EB82F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		979E171A2BC7CB3C00EB82F0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		979E171B2BC7CB3C00EB82F0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		979E171D2BC7CB3C00EB82F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		979E171E2BC7CB3C00EB82F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		979E17212BC7CB3C00EB82F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		979E17232BC7CB3E00EB82F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		979E17262BC7CB3E00EB82F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		979E17282BC7CB3E00EB82F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979E17292BC7CB3E00EB82F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		979E172F2BC7CB3F00EB82F0 /* AppResignBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppResignBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979E17332BC7CB3F00EB82F0 /* AppResignBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppResignBoxTests.m; sourceTree = "<group>"; };
+		979E17392BC7CB3F00EB82F0 /* AppResignBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppResignBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979E173D2BC7CB3F00EB82F0 /* AppResignBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppResignBoxUITests.m; sourceTree = "<group>"; };
+		979E173F2BC7CB3F00EB82F0 /* AppResignBoxUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppResignBoxUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BDC5A4CA5318296EBBA4C492 /* Pods-AppResignBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppResignBox.debug.xcconfig"; path = "Target Support Files/Pods-AppResignBox/Pods-AppResignBox.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		979E17112BC7CB3C00EB82F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FA214949103A3B86D83567 /* Pods_AppResignBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979E172C2BC7CB3F00EB82F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979E17362BC7CB3F00EB82F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		979E170B2BC7CB3C00EB82F0 = {
+			isa = PBXGroup;
+			children = (
+				979E17162BC7CB3C00EB82F0 /* AppResignBox */,
+				979E17322BC7CB3F00EB82F0 /* AppResignBoxTests */,
+				979E173C2BC7CB3F00EB82F0 /* AppResignBoxUITests */,
+				979E17152BC7CB3C00EB82F0 /* Products */,
+				ED8ABDB451650706C502E1AF /* Pods */,
+				F2D22D77CEE81F82A6C02AB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		979E17152BC7CB3C00EB82F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979E17142BC7CB3C00EB82F0 /* AppResignBox.app */,
+				979E172F2BC7CB3F00EB82F0 /* AppResignBoxTests.xctest */,
+				979E17392BC7CB3F00EB82F0 /* AppResignBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		979E17162BC7CB3C00EB82F0 /* AppResignBox */ = {
+			isa = PBXGroup;
+			children = (
+				979E17172BC7CB3C00EB82F0 /* AppDelegate.h */,
+				979E17182BC7CB3C00EB82F0 /* AppDelegate.m */,
+				979E171A2BC7CB3C00EB82F0 /* SceneDelegate.h */,
+				979E171B2BC7CB3C00EB82F0 /* SceneDelegate.m */,
+				979E171D2BC7CB3C00EB82F0 /* ViewController.h */,
+				979E171E2BC7CB3C00EB82F0 /* ViewController.m */,
+				979E17202BC7CB3C00EB82F0 /* Main.storyboard */,
+				979E17232BC7CB3E00EB82F0 /* Assets.xcassets */,
+				979E17252BC7CB3E00EB82F0 /* LaunchScreen.storyboard */,
+				979E17282BC7CB3E00EB82F0 /* Info.plist */,
+				979E17292BC7CB3E00EB82F0 /* main.m */,
+			);
+			path = AppResignBox;
+			sourceTree = "<group>";
+		};
+		979E17322BC7CB3F00EB82F0 /* AppResignBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				979E17332BC7CB3F00EB82F0 /* AppResignBoxTests.m */,
+			);
+			path = AppResignBoxTests;
+			sourceTree = "<group>";
+		};
+		979E173C2BC7CB3F00EB82F0 /* AppResignBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				979E173D2BC7CB3F00EB82F0 /* AppResignBoxUITests.m */,
+				979E173F2BC7CB3F00EB82F0 /* AppResignBoxUITestsLaunchTests.m */,
+			);
+			path = AppResignBoxUITests;
+			sourceTree = "<group>";
+		};
+		ED8ABDB451650706C502E1AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDC5A4CA5318296EBBA4C492 /* Pods-AppResignBox.debug.xcconfig */,
+				425DD6287CB6C95482D916C5 /* Pods-AppResignBox.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2D22D77CEE81F82A6C02AB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5647DC0F346EBB15863A92BD /* Pods_AppResignBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		979E17132BC7CB3C00EB82F0 /* AppResignBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979E17432BC7CB3F00EB82F0 /* Build configuration list for PBXNativeTarget "AppResignBox" */;
+			buildPhases = (
+				76E345D5F0A7149A4EE11819 /* [CP] Check Pods Manifest.lock */,
+				979E17102BC7CB3C00EB82F0 /* Sources */,
+				979E17112BC7CB3C00EB82F0 /* Frameworks */,
+				979E17122BC7CB3C00EB82F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppResignBox;
+			productName = AppResignBox;
+			productReference = 979E17142BC7CB3C00EB82F0 /* AppResignBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		979E172E2BC7CB3F00EB82F0 /* AppResignBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979E17462BC7CB3F00EB82F0 /* Build configuration list for PBXNativeTarget "AppResignBoxTests" */;
+			buildPhases = (
+				979E172B2BC7CB3F00EB82F0 /* Sources */,
+				979E172C2BC7CB3F00EB82F0 /* Frameworks */,
+				979E172D2BC7CB3F00EB82F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979E17312BC7CB3F00EB82F0 /* PBXTargetDependency */,
+			);
+			name = AppResignBoxTests;
+			productName = AppResignBoxTests;
+			productReference = 979E172F2BC7CB3F00EB82F0 /* AppResignBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		979E17382BC7CB3F00EB82F0 /* AppResignBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979E17492BC7CB3F00EB82F0 /* Build configuration list for PBXNativeTarget "AppResignBoxUITests" */;
+			buildPhases = (
+				979E17352BC7CB3F00EB82F0 /* Sources */,
+				979E17362BC7CB3F00EB82F0 /* Frameworks */,
+				979E17372BC7CB3F00EB82F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979E173B2BC7CB3F00EB82F0 /* PBXTargetDependency */,
+			);
+			name = AppResignBoxUITests;
+			productName = AppResignBoxUITests;
+			productReference = 979E17392BC7CB3F00EB82F0 /* AppResignBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		979E170C2BC7CB3C00EB82F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					979E17132BC7CB3C00EB82F0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					979E172E2BC7CB3F00EB82F0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 979E17132BC7CB3C00EB82F0;
+					};
+					979E17382BC7CB3F00EB82F0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 979E17132BC7CB3C00EB82F0;
+					};
+				};
+			};
+			buildConfigurationList = 979E170F2BC7CB3C00EB82F0 /* Build configuration list for PBXProject "AppResignBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 979E170B2BC7CB3C00EB82F0;
+			productRefGroup = 979E170B2BC7CB3C00EB82F0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979E17132BC7CB3C00EB82F0 /* AppResignBox */,
+				979E172E2BC7CB3F00EB82F0 /* AppResignBoxTests */,
+				979E17382BC7CB3F00EB82F0 /* AppResignBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		979E17122BC7CB3C00EB82F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979E17272BC7CB3E00EB82F0 /* LaunchScreen.storyboard in Resources */,
+				979E17242BC7CB3E00EB82F0 /* Assets.xcassets in Resources */,
+				979E17222BC7CB3C00EB82F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979E172D2BC7CB3F00EB82F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979E17372BC7CB3F00EB82F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76E345D5F0A7149A4EE11819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppResignBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979E17102BC7CB3C00EB82F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979E171F2BC7CB3C00EB82F0 /* ViewController.m in Sources */,
+				979E17192BC7CB3C00EB82F0 /* AppDelegate.m in Sources */,
+				979E172A2BC7CB3E00EB82F0 /* main.m in Sources */,
+				979E171C2BC7CB3C00EB82F0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979E172B2BC7CB3F00EB82F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979E17342BC7CB3F00EB82F0 /* AppResignBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979E17352BC7CB3F00EB82F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979E17402BC7CB3F00EB82F0 /* AppResignBoxUITestsLaunchTests.m in Sources */,
+				979E173E2BC7CB3F00EB82F0 /* AppResignBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979E17312BC7CB3F00EB82F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979E17132BC7CB3C00EB82F0 /* AppResignBox */;
+			targetProxy = 979E17302BC7CB3F00EB82F0 /* PBXContainerItemProxy */;
+		};
+		979E173B2BC7CB3F00EB82F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979E17132BC7CB3C00EB82F0 /* AppResignBox */;
+			targetProxy = 979E173A2BC7CB3F00EB82F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		979E17202BC7CB3C00EB82F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979E17212BC7CB3C00EB82F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		979E17252BC7CB3E00EB82F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979E17262BC7CB3E00EB82F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		979E17412BC7CB3F00EB82F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		979E17422BC7CB3F00EB82F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979E17442BC7CB3F00EB82F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC5A4CA5318296EBBA4C492 /* Pods-AppResignBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppResignBox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvlproad.AppResignBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		979E17452BC7CB3F00EB82F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425DD6287CB6C95482D916C5 /* Pods-AppResignBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppResignBox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvlproad.AppResignBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		979E17472BC7CB3F00EB82F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvlproad.AppResignBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppResignBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppResignBox";
+			};
+			name = Debug;
+		};
+		979E17482BC7CB3F00EB82F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvlproad.AppResignBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppResignBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppResignBox";
+			};
+			name = Release;
+		};
+		979E174A2BC7CB3F00EB82F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvlproad.AppResignBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppResignBox;
+			};
+			name = Debug;
+		};
+		979E174B2BC7CB3F00EB82F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvlproad.AppResignBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppResignBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		979E170F2BC7CB3C00EB82F0 /* Build configuration list for PBXProject "AppResignBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979E17412BC7CB3F00EB82F0 /* Debug */,
+				979E17422BC7CB3F00EB82F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979E17432BC7CB3F00EB82F0 /* Build configuration list for PBXNativeTarget "AppResignBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979E17442BC7CB3F00EB82F0 /* Debug */,
+				979E17452BC7CB3F00EB82F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979E17462BC7CB3F00EB82F0 /* Build configuration list for PBXNativeTarget "AppResignBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979E17472BC7CB3F00EB82F0 /* Debug */,
+				979E17482BC7CB3F00EB82F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979E17492BC7CB3F00EB82F0 /* Build configuration list for PBXNativeTarget "AppResignBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979E174A2BC7CB3F00EB82F0 /* Debug */,
+				979E174B2BC7CB3F00EB82F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 979E170C2BC7CB3C00EB82F0 /* Project object */;
+}
